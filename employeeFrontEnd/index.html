@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Management System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Employee Management System</h1>
+  
+  <form id="employee-form">
+    <h2>Add Employee</h2>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="position">Position:</label>
+      <input type="text" id="position" name="position" required>
+    </div>
+    <div>
+      <button type="submit">Add Employee</button>
+    </div>
+  </form>
+  
+  <h2>Employee List</h2>
+  <table id="employee-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Employee data will be dynamically added here -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
